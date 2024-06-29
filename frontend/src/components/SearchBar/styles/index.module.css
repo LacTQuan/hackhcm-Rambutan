@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the search bar */
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 70%;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: black;
+    width: 80%;
+}
+
+.button {
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+}
+
+.button img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+    color: #0070f3;
+}
+
+.button:hover img {
+    transform: scale(1.1);
+}
+
+.button:active {
+    background-color: #e0e0e0;
+    color: #005bb5;
+}
+
+.button:active img {
+    transform: scale(0.9);
+}
