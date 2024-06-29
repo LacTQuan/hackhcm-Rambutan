@@ -60,12 +60,12 @@ const ImageWithBoundingBoxes: React.FC<Props> = ({ imageUrl, objects, hoveredObj
     <div style={{ display: 'inline-block', width: '100%', height: '100%', position: 'relative' }} ref={elementRef} >
       <img src={imageUrl} alt="Detected objects" style={{ height: '100%', width: '100%', objectFit: 'contain' }} />
       {hoveredObject && objects[hoveredObject]?.map((box, index) => (
-        <BoundingBox imgScale={imgScale} imgPos={imgPos} box={box} index={index} toColor={hoveredObject} />
+        <BoundingBox key={index} imgScale={imgScale} imgPos={imgPos} box={box} index={index} toColor={hoveredObject} />
 
       ))}
       {!hoveredObject && Object.keys(objects).map((key) => (
         objects[key]?.map((box, index) => (
-          <BoundingBox imgScale={imgScale} imgPos={imgPos} box={box} index={index} toColor={key} />
+          <BoundingBox key={index} imgScale={imgScale} imgPos={imgPos} box={box} index={index} toColor={key} />
         )
         )
       ))}

@@ -33,7 +33,7 @@ try {
         .connect(process.env.MONGO_URL as string)
         .then(() => {
             console.log('[MONGO] Successfully connect to MongoDB.')
-            app.listen(process.env.PORT, () => {
+            app.listen(process.env.PORT , () => {
                 console.log('====================================')
                 console.log(`Server is running on port ${process.env.PORT}`)
                 console.log('====================================')
