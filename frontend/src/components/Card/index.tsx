@@ -20,7 +20,7 @@ export const Card: React.FC<ImageCard> = ({ imageUrl, objects,reasoning }) => {
   }
 
   return (
-    <div className={styles.card}>
+    <div className={styles.card + "  transform transition-transform duration-300 hover:-translate-y-1"}>
       <div className="w-full h-[80%] bg-slate-200 rounded-lg">
         <img
           src={imageUrl}

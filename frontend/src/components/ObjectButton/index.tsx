@@ -12,7 +12,7 @@ const ObjectButtons: React.FC<Props> = ({ objects, className, onHover }) => {
     <div className={className}>
       {Object.keys(objects).map((objectName) => (
         <button
-          className='h-[50px] m-2 rounded-3xl bg-black p-4 flex flex-col justify-center'
+          className='h-[50px] m-2 rounded-3xl bg-black p-4 flex flex-col justify-center  transform transition-transform duration-300 hover:-translate-y-1'
           key={objectName}
           onMouseEnter={() => onHover(objectName)}
           onMouseLeave={() => onHover(null)}

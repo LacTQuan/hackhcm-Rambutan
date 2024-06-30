@@ -8,14 +8,17 @@
     padding: 0;
     color: white;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 .header {
     width: 100%;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
-    background: rgba(0, 0, 0, 0.2);
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* background: rgba(0, 0, 0, 0.2); */
+    /* position: relative; */
+
 }
 
 .header a {
