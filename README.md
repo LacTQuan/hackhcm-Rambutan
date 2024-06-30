@@ -1,7 +1,8 @@
 ## Production Links
 
-- [Frontend](https://hackhcm-rambutan-frontend.onrender.com/history)
-- [Backend](https://hackhcm-rambutan-backend.onrender.com/history)
+- <a href="https://hackhcm-rambutan-frontend.onrender.com" target="_blank">Frontend</a>
+- <a href="https://hackhcm-rambutan-backend.onrender.com" target="_blank">Backend</a>
+
 
 
 ## Table of Contents
