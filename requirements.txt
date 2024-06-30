@@ -1,0 +1,15 @@
+levenshtein
+paddlepaddle-gpu
+paddleocr
+groq
+accelerate
+kornia
+kornia-rs
+facenet-pytorch
+bitsandbytes
+torch
+transformers
+numpy==1.23.0
+google-generativeai
+fastapi
+uvicorn
