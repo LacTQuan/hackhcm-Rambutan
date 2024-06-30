@@ -63,7 +63,7 @@ const History = () => {
               onClick={handleOnClick}
               key={index}
               id={entry._id}
-              time={new Date(entry.createdAt).toDateString()} // Ensure correct date conversion
+              time={new Date(entry.createdAt).toLocaleString()} // Ensure correct date conversion
               photoCount={entry.images.length}
             />
           ))}

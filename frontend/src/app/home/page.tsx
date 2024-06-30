@@ -101,15 +101,15 @@ const Home = () => {
             style={{ display: "none" }}
             onChange={handleChange}
           />
-          <button className={styles.upload} onClick={handleUploadClick}>
+          <button className={styles.upload + "  transform transition-transform duration-300 hover:-translate-y-1"} onClick={handleUploadClick}>
             Upload{" "}
             {uploadCount > 0 && (
               <span className={styles.badge}>{uploadCount}</span>
             )}
           </button>
         </div>
-        <button className={styles.cook} onClick={handleCookClick}>
-          Cook
+        <button className={styles.cook + "  transform transition-transform duration-300 hover:-translate-y-1"} onClick={handleCookClick}>
+          Analyze
         </button>
         {/* {filePaths.length > 0 && (
           <div className={styles.result}>

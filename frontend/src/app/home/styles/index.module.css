@@ -9,10 +9,10 @@
     position: relative;
     background-color: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 20px;
     margin: 20px;
     cursor: pointer;
 }
@@ -20,10 +20,10 @@
 .cook {
     background-color: purple;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 20px;
     margin: 20px;
     cursor: pointer;
 }
@@ -31,7 +31,7 @@
 .badge {
     background-color: gray;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 3px 13px;
     position: absolute;
     top: -15px;
     right: -15px;

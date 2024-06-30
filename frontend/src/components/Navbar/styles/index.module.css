@@ -1,9 +1,10 @@
 .navbar {
     width: 100%;
     background-color: white;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     height: 4rem;
+    width: 100%;
 }
 
 .container {
